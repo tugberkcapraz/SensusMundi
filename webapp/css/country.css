@@ -1,0 +1,116 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner[data-country="uk"] {
+    background-image: url('../public/uk_banner.png');
+}
+
+.banner[data-country="turkey"] {
+    background-image: url('../public/turkey_banner.png');
+}
+
+.banner[data-country="nato"] {
+    background-image: url('../public/NATO_banner.png');
+}
+
+/* Add more country-specific banner styles as needed */
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.watchlist-item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #545454;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.watchlist-content {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 60px;
+}
+
+.watchlist-content p {
+    margin-bottom: 1.5em;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #2c3e50;
+    font-size: 1.8em;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sources-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sources-list li {
+    margin-bottom: 15px;
+}
+
+.sources-list a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-style: italic;
+}
+
+.sources-list a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 20px;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .watchlist-content {
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,6 @@
+.venv/
+.cursorrules
+instructions.txt
+src/config.py
+src/__pycache__
+src/sensusmundi.db

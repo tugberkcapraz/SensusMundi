@@ -1,0 +1,54 @@
+{
+  "topics": [
+    {
+      "topic": "Climate",
+      "topic_name": "Climate Change and Environmental Issues",
+      "prompt": "Summarize this article about climate change and environmental issues."
+    },
+    {
+      "topic": "UK",
+      "topic_name": "United Kingdom News",
+      "prompt": "Summarize this article about UK news and current events."
+    },
+    {
+      "topic": "China",
+      "topic_name": "China News",
+      "prompt": "Summarize this article about China news and current events."
+    },
+    {
+      "topic": "Russia_Ukraine",
+      "topic_name": "Russia-Ukraine Conflict",
+      "prompt": "Summarize this article about the Russia-Ukraine conflict."
+    },
+    {
+      "topic": "Israel_Palestine",
+      "topic_name": "Israel-Palestine Conflict",
+      "prompt": "Summarize this article about the Israel-Palestine conflict."
+    },
+    {
+      "topic": "USA",
+      "topic_name": "United States News",
+      "prompt": "Summarize this article about US news and current events."
+    },
+    {
+      "topic": "Turkey",
+      "topic_name": "Turkey News",
+      "prompt": "Summarize this article about Turkey news and current events."
+    },
+    {
+      "topic": "Germany",
+      "topic_name": "Germany News",
+      "prompt": "Summarize this article about Germany news and current events."
+    },
+    {
+      "topic": "France",
+      "topic_name": "France News",
+      "prompt": "Summarize this article about France news and current events."
+    },
+    {
+      "topic": "NATO",
+      "topic_name": "NATO News",
+      "prompt": "Summarize this article about NATO news and current events."
+    }
+  ]
+}

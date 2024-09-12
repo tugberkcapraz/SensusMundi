@@ -1,0 +1,11 @@
+fastapi
+pydantic
+requests
+newspaper3k
+cohere
+openai
+pandas
+numpy
+newspaper3k
+aiohttp
+lxml_html_clean

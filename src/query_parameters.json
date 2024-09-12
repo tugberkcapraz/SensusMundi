@@ -1,0 +1,64 @@
+{
+    "topics": [
+      {
+        "topic": "Climate",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=repeat2:%22climate%22%20%20repeat2:%22carbon%22%20(theme:ENV_OIL%20OR%20theme:ENV_COAL%20OR%20theme:ENV_SOLAR%20OR%20theme:ENV_GREEN%20OR%20theme:ENV_HYDRO%20OR%20theme:ENV_WINDPOWER%20OR%20theme:ENV_CLIMATECHANGE)&mode=ArtList&maxrecords=250&trans=googtrans&format=html&timespan=8h&format=json",
+        "question_string": "climate change, environment, green energy, nuclear, sustainable development goals",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: climate change, environment, green energy etc:"
+      },
+      {
+        "topic": "UK",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=(Sunak%20Or%20Tory%20Or%20conservative%20Or%20labour%20OR%20minister)%20sourcecountry:UK%20sourcelang:eng%20(theme:USPEC_POLICY1%20OR%20theme:USPEC_POLITICS_GENERAL1)&mode=ArtList&maxrecords=75&format=json&timespan=8h",
+        "question_string": "UK, UK politics, UK PM, UK ministers, UK parliament, UK elections, UK parties, UK economy, UK labour, UK trade unions, UK strike, UK worker's rights, UK work safety, UK public bargaining",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: labor unions, workers' rights, strikes, etc:"
+      },
+      {
+        "topic": "China",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=repeat5:%22china%22%20sourcecountry:CH%20sourcelang:eng%20(theme:USPEC_POLITICS_GENERAL1%20OR%20theme:WB_2473_DIPLOMACY_AND_NEGOTIATIONS%20OR%20theme:GENERAL_GOVERNMENT)&mode=ArtList&maxrecords=250&trans=googtrans&timespan=8h&format=json",
+        "question_string": "China, chinese politics, diplomacy, negotiations, etc",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: Chinese politics, diplomacy, negotiations, etc:"
+      },
+      {
+        "topic": "Russia_Ukraine",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=russia%20ukraine%20theme:CRISISLEX_CRISISLEXREC&mode=ArtList&maxrecords=250&trans=googtrans&format=html&timespan=8h&format=json",
+        "question_string": "ukraine war, russia, putin, zelensky, nato, ammunition,  blacksea, grain deal",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: the Russia-Ukraine conflict:"
+      },
+      {
+        "topic": "Israel_Palestine",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=israel%20palestine%20theme:CRISISLEX_CRISISLEXREC&mode=ArtList&maxrecords=250&trans=googtrans&format=html&timespan=8h&format=json",
+        "question_string": "israel, palestine, hamas, zionism, settlers, west bank, jerusalem, gaza, two-state solution, peace process, settlements, refugees, right of return, security barrier, intifada, nakba, golan heights, un resolution 242, un resolution 338, oslo accords, camp david accords, road map, geneva initiative, arab league peace initiative, israeli disengagement",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: the Israel-Palestine conflict:"
+      },
+      {
+        "topic": "USA",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=(repeat2:%22trump%22%20OR%20repeat2:%22Harris%22%20OR%20repeat2:%22democrats%22%20OR%20repeat2:%22republicans%22%20OR%20repeat4:%22senate%22%20)%20%20sourcecountry:US%20sourcelang:eng%20theme:USPEC_POLICY1%20theme:USPEC_POLITICS_GENERAL1&mode=ArtList&maxrecords=250&format=json&timespan=8h",
+        "question_string": "Trump, biden, senate, congress, house of representatives, supreme court, white house, capitol hill, democrat, republican, gop, mexico, democrats, china, russia, ukraine",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: US politics, senators, leaders, etc:"
+      },
+      {
+        "topic": "Turkey",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=(repeat3:%22Erdogan%22%20OR%20repeat3:%22turkey%22)%20sourcecountry:TU%20sourcelang:tur%20(theme:USPEC_POLICY1%20OR%20theme:USPEC_POLITICS_GENERAL1)&mode=ArtList&maxrecords=250&format=json&timespan=8h",
+        "question_string": "Turkey, kurdish, Recep tayyip erdogan, Özgür özel, babacan aksener, deva, iyip, chp, DEM hdp, pkk, ypg, kck, supreme court, elections",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: Turkish politics"
+      },
+      {
+        "topic": "Germany",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=repeat5:%22germany%22%20sourcecountry:GM%20(sourcelang:eng%20OR%20sourcelang:deu)%20theme:GENERAL_GOVERNMENT&mode=ArtList&maxrecords=40&timespan=8h&format=json",
+        "question_string": "Germany, EU, Ukraine, Olaf Scholz, economy, strike, recession, inflation, SPD, CDU, CSU, FDP, Die Linke, AfD, Greens, right wing, immigration, turkish",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: German politics"
+      },
+      {
+        "topic": "France",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=France%20(parliament%20OR%20macron%20OR%20%22le%20pen%22)%20(sourcelang:eng%20OR%20sourcelang:fra)%20theme:USPEC_POLICY1%20theme:USPEC_POLITICS_GENERAL1&mode=ArtList&maxrecords=75&format=json&timespan=8h",
+        "question_string": "France, Macron, Le Pen, France parliament, France elections, France economy, France strike, France recession, France inflation, France right wing, France immigration,",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR FOCUS IS: French politics"
+      },
+      {
+        "topic": "NATO",
+        "gdelt_query_string": "https://api.gdeltproject.org/api/v2/doc/doc?query=repeat3:%22NATO%22%20theme:USPEC_POLICY1&mode=ArtList&maxrecords=75&format=json&timespan=8h",
+        "question_string": "Nato, nato countries, defense, military, weapons, arms, sanctions, war, peace, security",
+        "prompt": "Always write in english. Stay absolutely loyal to the content. Don't assume. Being safe is better than being wrong. You are generating long, informative, relevant key takeaways from the the following article. YOUR SUMMARY SHOULD FOCUS ON SPECIFICALLY ON: NATO and NATO politics/geopolitics"
+      }
+    ]
+  }
